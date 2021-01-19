@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/mpuig/rubot_tutorial_ws/build'
+export CMAKE_PREFIX_PATH="/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD='/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src:$ROS_PACKAGE_PATH"

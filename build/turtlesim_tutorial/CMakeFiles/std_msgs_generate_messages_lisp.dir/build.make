@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/rubot_tutorial_ws/src
+CMAKE_SOURCE_DIR = /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/rubot_tutorial_ws/build
+CMAKE_BINARY_DIR = /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/build: std_msg
 .PHONY : turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 
 turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	cd /home/mpuig/rubot_tutorial_ws/build/turtlesim_tutorial && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/turtlesim_tutorial && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/mpuig/rubot_tutorial_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/rubot_tutorial_ws/src /home/mpuig/rubot_tutorial_ws/src/turtlesim_tutorial /home/mpuig/rubot_tutorial_ws/build /home/mpuig/rubot_tutorial_ws/build/turtlesim_tutorial /home/mpuig/rubot_tutorial_ws/build/turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src/turtlesim_tutorial /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/turtlesim_tutorial /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlesim_tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ros_basics"
-PROJECT_SPACE_DIR = "/home/mpuig/rubot_tutorial_ws/install"
+PROJECT_SPACE_DIR = "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/install"
 PROJECT_VERSION = "0.0.0"

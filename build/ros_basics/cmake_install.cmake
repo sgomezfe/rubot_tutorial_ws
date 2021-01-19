@@ -1,8 +1,8 @@
-# Install script for directory: /home/mpuig/rubot_tutorial_ws/src/ros_basics
+# Install script for directory: /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src/ros_basics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mpuig/rubot_tutorial_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mpuig/rubot_tutorial_ws/build/ros_basics/catkin_generated/installspace/ros_basics.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/ros_basics/catkin_generated/installspace/ros_basics.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_basics/cmake" TYPE FILE FILES
-    "/home/mpuig/rubot_tutorial_ws/build/ros_basics/catkin_generated/installspace/ros_basicsConfig.cmake"
-    "/home/mpuig/rubot_tutorial_ws/build/ros_basics/catkin_generated/installspace/ros_basicsConfig-version.cmake"
+    "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/ros_basics/catkin_generated/installspace/ros_basicsConfig.cmake"
+    "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/ros_basics/catkin_generated/installspace/ros_basicsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_basics" TYPE FILE FILES "/home/mpuig/rubot_tutorial_ws/src/ros_basics/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_basics" TYPE FILE FILES "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src/ros_basics/package.xml")
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/mpuig/rubot_tutorial_ws/src/turtlesim_tutorial
+# Install script for directory: /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src/turtlesim_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mpuig/rubot_tutorial_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mpuig/rubot_tutorial_ws/build/turtlesim_tutorial/catkin_generated/installspace/turtlesim_tutorial.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/turtlesim_tutorial/catkin_generated/installspace/turtlesim_tutorial.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_tutorial/cmake" TYPE FILE FILES
-    "/home/mpuig/rubot_tutorial_ws/build/turtlesim_tutorial/catkin_generated/installspace/turtlesim_tutorialConfig.cmake"
-    "/home/mpuig/rubot_tutorial_ws/build/turtlesim_tutorial/catkin_generated/installspace/turtlesim_tutorialConfig-version.cmake"
+    "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/turtlesim_tutorial/catkin_generated/installspace/turtlesim_tutorialConfig.cmake"
+    "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build/turtlesim_tutorial/catkin_generated/installspace/turtlesim_tutorialConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_tutorial" TYPE FILE FILES "/home/mpuig/rubot_tutorial_ws/src/turtlesim_tutorial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_tutorial" TYPE FILE FILES "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src/turtlesim_tutorial/package.xml")
 endif()
 

@@ -67,14 +67,14 @@ set(turtlesim_tutorial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(turtlesim_tutorial_SOURCE_PREFIX /home/mpuig/rubot_tutorial_ws/src/turtlesim_tutorial)
-  set(turtlesim_tutorial_DEVEL_PREFIX /home/mpuig/rubot_tutorial_ws/devel)
+  set(turtlesim_tutorial_SOURCE_PREFIX /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/src/turtlesim_tutorial)
+  set(turtlesim_tutorial_DEVEL_PREFIX /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/devel)
   set(turtlesim_tutorial_INSTALL_PREFIX "")
   set(turtlesim_tutorial_PREFIX ${turtlesim_tutorial_DEVEL_PREFIX})
 else()
   set(turtlesim_tutorial_SOURCE_PREFIX "")
   set(turtlesim_tutorial_DEVEL_PREFIX "")
-  set(turtlesim_tutorial_INSTALL_PREFIX /home/mpuig/rubot_tutorial_ws/install)
+  set(turtlesim_tutorial_INSTALL_PREFIX /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/install)
   set(turtlesim_tutorial_PREFIX ${turtlesim_tutorial_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mpuig/rubot_tutorial_ws/install/lib;/home/mpuig/rubot_tutorial_ws/devel/lib;/home/mpuig/turtlebot3_pc_ws/devel/lib;/home/mpuig/rUBotCoop_LabProject/devel/lib;/home/mpuig/rUBotCoop_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

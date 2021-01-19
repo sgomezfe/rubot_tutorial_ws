@@ -1,4 +1,4 @@
-prefix=/home/mpuig/rubot_tutorial_ws/devel
+prefix=/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/devel
 
 Name: ros_basics
 Description: Description of ros_basics

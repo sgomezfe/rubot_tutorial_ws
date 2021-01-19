@@ -1,4 +1,4 @@
-prefix=/home/mpuig/rubot_tutorial_ws/devel
+prefix=/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/devel
 
 Name: turtlesim_tutorial
 Description: Description of turtlesim_tutorial

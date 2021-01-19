@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mpuig/rubot_tutorial_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/mpuig/rubot_tutorial_ws/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/media/sf_SharedFolder_MV_UB_WIN/rubotUB/rubot_tutorial_ws/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
